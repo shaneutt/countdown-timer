@@ -9,10 +9,10 @@ Create the app with:
 make
 ```
 
-And export `COUNTDOWN_DESTINATION_TIMER` and `COUNTDOWN_DESTINATION_EVENT` before running the app:
+And export `COUNTDOWN_DESTINATION_TIME` and `COUNTDOWN_DESTINATION_EVENT` before running the app:
 
 ```
-export COUNTDOWN_DESTINATION_TIMER='Jul 4, 2018 at 8:00pm (EST)'
+export COUNTDOWN_DESTINATION_TIME='Jul 4, 2018 at 8:00pm (EST)'
 export COUNTDOWN_DESTINATION_EVENT='Independence Day!'
 ./countdown-timer
 ```
